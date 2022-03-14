@@ -1,3 +1,20 @@
+/* Common */
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+/* Utility Classes */
+
+.text-center{
+    text-align: center;
+}
+
+.p-y-1{
+    padding: 1rem 0;
+}
+
+
 /* Grid Structure */
 
 .container{
@@ -8,12 +25,21 @@
 .row{
     display: flex;
     flex-flow: row wrap;
+    margin: 0 -1rem;
 }
 
 [class*="col-"] {
     flex: 0 0 auto;
-  }
+}
 
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+  
+
+/* Le colonne senza misura specificata si riferiscono alla misura più piccola possibile: <576px */
 .col-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -230,7 +256,7 @@
     .col-sm-offset-11{
         margin-left: calc((100% / 12) * 11);
     }
-    
+}
 
 @media screen and (min-width: 768px) {
     .col-md-1{

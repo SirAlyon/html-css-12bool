@@ -1,0 +1,25 @@
+/* Common */
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+
+:root{
+    --blue: rgba(0, 108, 250, 1);
+    --success: rgba(0, 225, 101, 1);
+}
+
+/* Utility Classes */
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+[class*="col"] {
+    border: 0.5px solid white;
+}
