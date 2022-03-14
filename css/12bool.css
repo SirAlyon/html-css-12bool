@@ -14,6 +14,10 @@
     padding: 1rem;
 }
 
+.p-x-1{
+    padding: 0 1rem;
+}
+
 .p-y-1{
     padding: 1rem 0;
 }
@@ -32,7 +36,7 @@
 .row{
     display: flex;
     flex-flow: row wrap;
-    margin: 0 -1rem;
+    width: 100%;
 }
 
 [class*="col-"] {
@@ -153,9 +157,6 @@
     margin-left: calc((100% / 12) * 11);
 }
 
-.col-offset-12{
-    margin-left: calc((100% / 12) * 12);
-}
 
 /* #region Media Queries */
 

@@ -4,10 +4,13 @@
     padding: 0;margin: 0;box-sizing: border-box;
 }
 
-
 :root{
     --blue: rgba(0, 108, 250, 1);
     --success: rgba(0, 225, 101, 1);
+}
+
+h2{
+    margin-top: 1rem;
 }
 
 /* Utility Classes */
@@ -36,11 +39,16 @@
 
 
 
-
-
-
 /* Site Main */
 
 #site_main{
     margin-top: 2rem;
+}
+
+
+
+/* Site Footer */
+
+#site_footer{
+    margin-bottom: 2rem;
 }
