@@ -20,6 +20,27 @@
     background-color: var(--success);
 }
 
-[class*="col"] {
+.border-w{
     border: 0.5px solid white;
+}
+
+.border-b{
+    border: 0.5px solid var(--blue);
+}
+
+[class*="col"] {
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+/* Site Main */
+
+#site_main{
+    margin-top: 2rem;
 }
